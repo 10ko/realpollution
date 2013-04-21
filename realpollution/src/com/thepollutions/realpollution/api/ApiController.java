@@ -93,7 +93,7 @@ public class ApiController {
 
 
 			// Get the object of DataInputStream
-			DataInputStream in = new DataInputStream(request.getSession().getServletContext().getResourceAsStream("/WEB-INF/points.txt"));
+			DataInputStream in = new DataInputStream(request.getSession().getServletContext().getResourceAsStream("/WEB-INF/points2.txt"));
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
 			String strLine;
 			//Read File Line By Line
