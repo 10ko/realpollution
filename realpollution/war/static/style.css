@@ -1,0 +1,122 @@
+html,body{
+	margin:0;
+	padding:0;
+	background-color: rgb(200,200,200);
+	font-family: "museo-slab",serif;
+	font-style: normal;
+
+	color:rgb(40,40,40);
+
+	
+}
+
+#content {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+
+background-image: linear-gradient(left bottom, rgb(103,184,222) 14%, rgb(180,220,237) 69%);
+background-image: -o-linear-gradient(left bottom, rgb(103,184,222) 14%, rgb(180,220,237) 69%);
+background-image: -moz-linear-gradient(left bottom, rgb(103,184,222) 14%, rgb(180,220,237) 69%);
+background-image: -webkit-linear-gradient(left bottom, rgb(103,184,222) 14%, rgb(180,220,237) 69%);
+background-image: -ms-linear-gradient(left bottom, rgb(103,184,222) 14%, rgb(180,220,237) 69%);
+
+background-image:url('img/cloud1.png'),url('img/cloud2.png'), -webkit-gradient(
+	linear,
+	left bottom,
+	right top,
+	color-stop(0.14, rgb(103,184,222)),
+	color-stop(0.69, rgb(180,220,237))
+);
+	background-repeat: no-repeat;
+	background-position:  center center, top right;
+
+
+}
+
+#content article{
+	width: 960px;
+
+}
+#about{
+	margin:150px 0 0 50px;
+	max-width: 960px;
+	font-weight: 100;
+	font-size: 22px;
+	font-style: italic;
+}	
+
+h1{
+	font-size: 62px;
+	font-weight:800;
+	margin: 0;
+}
+h2{
+	font-size: 28px;
+	font-weight:500;
+	margin:0;
+}
+
+#about p{
+	margin-top: 40px;
+	font-family: "museo-sans",sans-serif;
+	font-style: italic;
+	font-weight: 100;
+}
+
+header,footer{
+	position:absolute;
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	overflow: hidden;
+	background-color: rgba(100,100,100,0.3);
+	color: rgb(120,120,120);
+}
+header p, footer p{
+	padding: 5;
+	margin: 0;
+}
+header{
+	top:0px;
+	box-shadow: 0px 0px 5px ;
+}
+
+footer{
+	bottom:0px;
+	border-top: 2px solid rgba(0,0,0,0.1);
+}
+
+#buttons{
+	overflow: hidden;
+	width: auto;
+	margin:30px 0 0 50px;
+}
+
+.button{
+	background-color: red;
+	float: left;
+	margin: 0 10px;
+	width: 150px;
+	height: 45px;
+	border:2px solid rgb(116,65,63);
+	background-color: rgb(245,65,63);
+	border-radius: 5px;
+}
+.button p{
+	font-family: "museo-sans",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	color: rgb(230,230,230);
+	text-align: center;
+	margin: 12px;
+}
+
+a{
+	text-decoration: none;
+}
+a:link {color:rgb(220,220,220);}
+a:visited{color:rgb(220,220,220);}
+a:hover {color:rgb(240,240,240); font-weight: 500;}
+a:active {color:rgb(180,180,180);}

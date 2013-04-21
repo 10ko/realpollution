@@ -1,0 +1,2 @@
+serviceClass: com.thepollutions.realpollution.client.IndexService
+path: E5A06E3B8B84E650BA5C2D9A03EA819B.gwt.rpc
